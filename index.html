@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+  <div id="preloader"></div>
+  <div class="time-delay" style="display:none;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YHae7JDkdog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YHae7JDkdog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <h1 id="title">Drum 🥁 Kit</h1>
+    <div class="set">
+      <button class="z drum">z</button>
+      <button class="x drum">x</button>
+      <button class="c drum">c</button>
+      <button class="v drum">v</button>
+      <button class="b drum">b</button>
+      <button class="n drum">n</button>
+      <button class="m drum">m</button>
+  </div>
+  
+  <p>Click or Press the keys</p>
+  <footer>
+    Made with ❤️ in India.
+  </footer>
+  </div>
+  <script src="index.js"></script>
+  
+
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+  </script>
+</body>
+
+</html>
